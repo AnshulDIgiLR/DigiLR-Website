@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <nav className="navbar sticky-nav navbar-expand-lg bg-dark navbar-dark text-white">
       <div className="container-fluid">
-        <a className="navbar-brand text-white" href="/">
+        <a className="navbar-brand text-white" href="home">
           DigiLR
         </a>
         {/* <button
@@ -22,20 +22,20 @@ export default function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button> */}
         {/* <div className="collapse navbar-collapse" id="navbarNav"> */}
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-full">
-          <li className="nav-item">
-            <Link className="nav-link cursor-pointer" to="/" spy={true} smooth={true} duration={300}>Home</Link>
+        <ul className="navbar-nav w-auto d-flex justify-content-center">
+          <li className="nav-item mx-3">
+            <Link className="nav-link cursor-pointer" to="home" spy={true} smooth={true} duration={300} offset={0}>Home</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item mx-3">
             {/* <a className="nav-link" href="#features" offset="-100">
               Features
             </a> */}
             <Link className="nav-link cursor-pointer" to="features" spy={true} smooth={true} offset={-100} duration={200}>Features</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item mx-3">
           <Link className="nav-link cursor-pointer" to="about" spy={true} smooth={true} offset={-100} duration={200}>About</Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item mx-3">
           <Link className="nav-link cursor-pointer" to="contact" spy={true} smooth={true} offset={-100} duration={200}>Contact</Link>
           </li>
         </ul>
