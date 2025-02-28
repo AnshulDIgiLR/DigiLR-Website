@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="w-[100%] text-center py-10 mx-auto max-w-6xl">
+    <div className="w-[100%] text-center py-10 mx-auto max-w-6xl" id="about">
       {/* Header Section */}
       <div className="mb-8">
         <h5 className="font-semibold uppercase tracking-wide">— DigiLR Report —</h5>

@@ -3,7 +3,7 @@ import React from "react";
 export default function Features() {
   return (
     <>
-    <div className="w-full text-center my-10 mx-auto max-w-6xl px-4">
+    <div className="w-full text-center my-10 mx-auto max-w-6xl px-4" id="features">
     <div className="mb-8">
         <h3 className="font-semibold uppercase tracking-wide">— Key Features —</h3>
       </div>

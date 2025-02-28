@@ -4,7 +4,7 @@ import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className='text-white bg-dark py-4'>
+    <div className='text-white bg-dark py-4' id='contact'>
       <div className="container">
   <footer>
     <div className="row">
