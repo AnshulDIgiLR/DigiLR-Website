@@ -1,8 +1,6 @@
 .carousel-control-prev-icon,
-.carousel-control-next-icon{
-    background-color: black;
-    border-radius: 30%;
-    padding: 5px;
+.carousel-control-next-icon {
+  filter: invert(1);
 }
 
 .collapse {
