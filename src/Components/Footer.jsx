@@ -9,7 +9,7 @@ export default function Footer() {
   <footer>
     <div className="row">
       <div className="col-6 col-md-3 mb-3">
-        <h5>Company</h5>
+        <h5>DigiLR Solutions</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-white">Home</a></li>
           <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-white">Features</a></li>
@@ -42,7 +42,7 @@ export default function Footer() {
       </div>
     </div>
 
-    <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+    <div className="d-flex flex-column flex-sm-row justify-content-between py-2 my-0 border-top">
       <p>© 2024 DigiLR Solutions, Inc. All rights reserved.</p>
       <ul className="list-unstyled d-flex">
         <li className="ms-3"><a className="text-white" href="/"><FaTwitter size={24} /></a></li>
