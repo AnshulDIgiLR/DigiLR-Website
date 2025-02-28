@@ -1,10 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles.css";
+import { Link } from "react-scroll";
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark navbar-dark text-white">
+    <nav className="navbar sticky-nav navbar-expand-lg bg-dark navbar-dark text-white">
       <div className="container-fluid">
         <a className="navbar-brand text-white" href="/">
           DigiLR
@@ -23,24 +24,19 @@ export default function NavBar() {
         {/* <div className="collapse navbar-collapse" id="navbarNav"> */}
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-full">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/">
-              Home
-            </a>
+            <Link className="nav-link cursor-pointer" to="/" spy={true} smooth={true} duration={300}>Home</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#features">
+            {/* <a className="nav-link" href="#features" offset="-100">
               Features
-            </a>
+            </a> */}
+            <Link className="nav-link cursor-pointer" to="features" spy={true} smooth={true} offset={-100} duration={200}>Features</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#about">
-              About
-            </a>
+          <Link className="nav-link cursor-pointer" to="about" spy={true} smooth={true} offset={-100} duration={200}>About</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#contact">
-              Contact
-            </a>
+          <Link className="nav-link cursor-pointer" to="contact" spy={true} smooth={true} offset={-100} duration={200}>Contact</Link>
           </li>
         </ul>
         <form className="d-flex" role="search">
