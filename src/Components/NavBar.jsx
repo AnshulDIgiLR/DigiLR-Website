@@ -37,6 +37,11 @@ export default function NavBar() {
               About
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/">
+              Contact
+            </a>
+          </li>
         </ul>
         <form className="d-flex" role="search">
           <input
