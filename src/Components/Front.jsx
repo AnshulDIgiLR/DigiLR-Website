@@ -4,7 +4,7 @@ import '../styles.css';
 export default function Front() {
   return (
     <>
-        <div id="myCarousel home" className="carousel slide mb-6" data-bs-ride="carousel">
+        <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel">
     <div className="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-label="Slide 1" aria-current="true"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" className=""></button>
