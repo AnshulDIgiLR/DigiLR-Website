@@ -4,7 +4,7 @@ import "../styles.css";
 
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-gradient navbar-gradient text-white">
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark text-white">
       <div className="container-fluid">
         <a className="navbar-brand text-white" href="/">
           DigiLR
