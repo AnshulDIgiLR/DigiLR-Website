@@ -26,7 +26,7 @@ export default function Front() {
       <img src="/front2.png" className="d-block w-100" style={{height: "90vh", objectFit: "cover"}} alt=""/>        
       <div className="container">
           <div className="carousel-caption" style={{backgroundColor: "rgba(0, 0, 0, 0.4)", padding: "15px", borderRadius: "10px", color: "white", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)"}}>
-            <h2>Another example headline.</h2>
+            <h2>Focused on Property Records and Diligence</h2>
             <p>Some representative placeholder content for the second slide of the carousel.</p>
             <p><a className="btn btn-lg btn-primary" href="/">Learn more</a></p>
           </div>
