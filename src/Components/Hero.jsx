@@ -29,7 +29,7 @@ export default function Hero() {
               implementation. Experience efficiency dividends from day one with
               a smarter, more streamlined approach to real estate due diligence.
             </p>
-            <div className="mt-6 flex justify-center">
+            {/* <div className="mt-6 flex justify-center">
               <input
                 className="w-2/3 sm:w-1/2 lg:w-1/3 p-3 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                 placeholder="Search by Plot Number, Owner Name..."
@@ -37,7 +37,7 @@ export default function Hero() {
               <button className="ml-2 mx-3 btn btn-primary btn-lg">
                 Search
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       {/* </div> */}
