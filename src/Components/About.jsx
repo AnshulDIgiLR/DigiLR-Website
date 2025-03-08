@@ -21,21 +21,21 @@ export default function About() {
         {/* Statistics Section (Displayed in Columns) */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="p-6 bg-gray-100 rounded-lg shadow-md">
-            <h2 className="text-4xl font-bold text-blue-600">{inView ? <CountUp start={0} end={1000000} duration={3} delay={0} separator="," /> : "1M"}+</h2>
+            <h2 className="text-4xl font-bold text-blue-600">{inView ? <CountUp start={0} end={10000} duration={3} delay={0} separator="," /> : "1M"}+</h2>
             <h6 className="text-gray-700">Reports issued</h6>
           </div>
           <div className="p-6 bg-gray-100 rounded-lg shadow-md">
             <h2 className="text-4xl font-bold text-blue-600">
-            {inView && <CountUp start={0} end={28} duration={3} delay={0} />}+
+            {inView && <CountUp start={0} end={2} duration={3} delay={0} />}+
             </h2>
             <h6 className="text-gray-700">States</h6>
           </div>
           <div className="p-6 bg-gray-100 rounded-lg shadow-md">
-            <h2 className="text-4xl font-bold text-blue-600">{inView && <CountUp start={0} end={600} duration={3} delay={0} />}+</h2>
+            <h2 className="text-4xl font-bold text-blue-600">{inView && <CountUp start={0} end={55} duration={3} delay={0} />}+</h2>
             <h6 className="text-gray-700">Districts</h6>
           </div>
           <div className="p-6 bg-gray-100 rounded-lg shadow-md">
-            <h2 className="text-4xl font-bold text-blue-600">{inView && <CountUp start={0} end={500000} duration={3} delay={0} seperator="," />}+</h2>
+            <h2 className="text-4xl font-bold text-blue-600">{inView && <CountUp start={0} end={500} duration={3} delay={0} seperator="," />}+</h2>
             <h6 className="text-gray-700">Transactions</h6>
           </div>
         </div>
