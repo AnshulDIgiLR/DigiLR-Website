@@ -22,8 +22,8 @@ export default function Footer() {
       <div className="col-6 col-md-3 mb-3">
         <h5>Links</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-white">Terms of Use</a></li>
-          <li className="nav-item mb-2"><a href="public\DigiLRPrivacyPolicy.pdf" className="nav-link p-0 text-white">Privacy Policy</a></li>
+          <li className="nav-item mb-2"><a href=".\DigiLRTermsAndConditions.pdf" className="nav-link p-0 text-white">Terms of Use</a></li>
+          <li className="nav-item mb-2"><a href=".\DigiLRPrivacyPolicy.pdf" className="nav-link p-0 text-white">Privacy Policy</a></li>
           {/* <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-white">Refund Policy</a></li>
           <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-white">API Documentation</a></li> */}
         </ul>
