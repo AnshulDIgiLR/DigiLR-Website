@@ -26,9 +26,10 @@ export default function About() {
           </div>
           <div className="p-6 bg-gray-100 rounded-lg shadow-md">
             <h2 className="text-4xl font-bold text-blue-600">
-            {inView && <CountUp start={0} end={2} duration={3} delay={0} />}+
+            {inView && <CountUp start={0} end={2} duration={3} delay={0} />}
             </h2>
-            <h6 className="text-gray-700">States</h6>
+            <h6 className="text-gray-700">States (Punjab and Telangana)</h6>
+            {/* <h6 className="text-gray-700"></h6> */}
           </div>
           <div className="p-6 bg-gray-100 rounded-lg shadow-md">
             <h2 className="text-4xl font-bold text-blue-600">{inView && <CountUp start={0} end={55} duration={3} delay={0} />}+</h2>
