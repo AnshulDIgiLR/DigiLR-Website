@@ -38,6 +38,25 @@ export default function NavBar() {
           <li className="nav-item mx-3">
           <Link className="nav-link cursor-pointer" to="contact" spy={true} smooth={true} offset={-100} duration={200}>Contact</Link>
           </li>
+          <li className="nav-item dropdown mx-3">
+            <a 
+              className="nav-link dropdown-toggle" 
+              href="#" 
+              id="useCasesDropdown" 
+              role="button" 
+              data-bs-toggle="dropdown" 
+              aria-expanded="false"
+            >
+              Use Cases
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="useCasesDropdown">
+              <li>
+                <Link className="dropdown-item cursor-pointer" to="due-diligence" spy={true} smooth={true} offset={-100} duration={200}>
+                  Due Diligence
+                </Link>
+              </li>
+            </ul>
+          </li>
         </ul>
         <form className="d-flex" role="search">
           <input
