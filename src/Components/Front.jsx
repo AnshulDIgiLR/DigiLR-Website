@@ -18,7 +18,7 @@ export default function Front() {
           >
             <h2>Revolutionizing Real Estate Transparency</h2>
             <p className="opacity-75">Secure, digital property records for hassle-free transactions.</p>
-            <p><a className="btn btn-lg btn-primary" href="/">Get Started</a></p>
+            <p><a className="btn btn-lg btn-primary" href="https://forms.gle/cay5YepFd2Uhne3P9">Get Started</a></p>
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@ export default function Front() {
           <div className="carousel-caption" style={{backgroundColor: "rgba(0, 0, 0, 0.4)", padding: "15px", borderRadius: "10px", color: "white", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)"}}>
             <h2>Verify Property Ownership with Ease</h2>
             <p>DigiLR ensures accurate, tamper-proof property records.</p>
-            <p><a className="btn btn-lg btn-primary" href="/">Learn more</a></p>
+            <p><a className="btn btn-lg btn-primary" href="https://forms.gle/cay5YepFd2Uhne3P9">Learn more</a></p>
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ export default function Front() {
           <div className="carousel-caption text-end" style={{backgroundColor: "rgba(0, 0, 0, 0.4)", padding: "15px", borderRadius: "10px", color: "white", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)"}}>
             <h2>Smart Due Diligence for Smarter Investments</h2>
             <p>Access complete property history and legal insights before you buy.</p>
-            <p><a className="btn btn-lg btn-primary" href="/">Explore Features</a></p>
+            <p><a className="btn btn-lg btn-primary" href="https://forms.gle/cay5YepFd2Uhne3P9">Explore Features</a></p>
           </div>
         </div>
       </div>
