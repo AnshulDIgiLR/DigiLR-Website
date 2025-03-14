@@ -10,7 +10,7 @@ export default function NavBar() {
         <a className="navbar-brand text-white" href="home">
           DigiLR
         </a>
-        {/* <button
+        <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -20,8 +20,8 @@ export default function NavBar() {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button> */}
-        {/* <div className="collapse navbar-collapse" id="navbarNav"> */}
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav w-auto d-flex justify-content-center">
           <li className="nav-item mx-3">
             <Link className="nav-link cursor-pointer" to="home" spy={true} smooth={true} duration={300} offset={0}>Home</Link>
@@ -70,7 +70,7 @@ export default function NavBar() {
           </button>
         </form>
       </div>
-      {/* </div> */}
+      </div>
     </nav>
   );
 }

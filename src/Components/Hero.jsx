@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="w-full bg-gray-100">
       {/* <div className="container-fluid px-4 py-5"> */}
-        <div className="row flex-lg-row-reverse align-items-center mx-5 g-5 py-5">
+        <div className="row flex-lg-row-reverse align-items-center mx-5 lg:mx-1 g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <img
               src="hero image.png"
@@ -22,7 +22,7 @@ export default function Hero() {
             <h2 className="display-10 fw-bold text-body-emphasis lh-1 mb-3">
               Transforming Land Administration
             </h2>
-            <p className="lead" align="left">
+            <p className="" align="justify">
               DIGILR's digital infrastructure simplifies legal due diligence for
               real estate assets. Our unified platform integrates all essential
               tools seamlessly, offering high customization and effortless
